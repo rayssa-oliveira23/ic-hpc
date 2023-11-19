@@ -24,7 +24,6 @@ vec csum(int modelo, vec a, double asum);
 
 int main(int argc, char** argv)
 {  
-    /*
     cout << "Digite o número correspondente ao modelo desejado: \n1 - Dimerisation kinetics\n2 - Michaelis-Menten enzyme kinetics\n";
     string modelo, tempo, nsim;
     cin >> modelo;
@@ -32,11 +31,7 @@ int main(int argc, char** argv)
     cin >> nsim;
     cout << "\nDigite a duração de cada simulação (tempo em segundos): \n";
     cin >> tempo;
-    */
-    string modelo = "1";
-    string nsim = "1";
-    string tempo = "120";
-   
+    
     //Dimerisation kinetics
     vec X1;
     X1.load("X01.dat");
